@@ -31,3 +31,6 @@ class LRUCacheCustom():
 
         self.list.move_front(node)
         return node.data.value
+
+    def print_cache(self):
+        print(self.nodes)

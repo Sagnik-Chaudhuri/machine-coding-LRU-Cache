@@ -31,6 +31,7 @@ def main():
     print(cache.get(1))
     print(cache.get(2))
     cache.list.print_cap()
+    cache.print_cache()
     return None
 
 
